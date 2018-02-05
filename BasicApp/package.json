@@ -1,0 +1,14 @@
+{
+  "name": "basicapp",
+  "version": "0.0.1",
+  "description": "A basic app to showcase NodeJS.",
+  "author": "Jan Czarnecki",
+  "dependencies": {
+    "mathjs": "^3.20.1",
+    "mocha": "^5.0.0"
+  },
+  "scripts": {
+    "main": "node src/main.js",
+    "test": "mocha \"./src/**/*.test.js\""
+  }
+}

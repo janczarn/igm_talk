@@ -1,0 +1,15 @@
+{
+  "name": "basicapp",
+  "version": "0.0.1",
+  "description": "A basic app to showcase NodeJS.",
+  "author": "Jan Czarnecki",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mathjs": "^3.20.1",
+    "webpack": "^3.10.0"
+  },
+  "scripts": {
+    "build": "webpack --config ./webpack.config.js",
+    "server": "node src/server.js"
+  }
+}
